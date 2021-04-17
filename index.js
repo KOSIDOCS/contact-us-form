@@ -91,5 +91,5 @@ app.post("/send", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log("server start on port 3030");
+  console.log(`server started on port ${PORT}`);
 });
